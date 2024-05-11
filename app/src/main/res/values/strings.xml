@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2020 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
+  in compliance with the License. You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software distributed under the License
+  is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+  or implied. See the License for the specific language governing permissions and limitations under
+  the License.
+  -->
+<resources>
+
+    <string name="app_name">Nimyears-Email</string>
+
+    <!--BottomAppBar-->
+    <string name="bottom_app_bar_chevron_content_desc">打开或关闭底部导航抽屉</string>
+    <string name="bottom_app_bar_logo_content_desc">回复图标</string>
+    <string name="bottom_nav_drawer_profile_image_content_desc">个人头像图片</string>
+    <string name="fab_compose_email_content_description">撰写新邮件</string>
+    <string name="fab_reply_email_content_description">回复邮件</string>
+
+    <!--BottomSheet菜单-->
+    <string name="menu_item_forward">转发</string>
+    <string name="menu_item_reply">回复</string>
+    <string name="menu_item_reply_all">全部回复</string>
+    <string name="menu_item_archive">归档</string>
+    <string name="menu_item_delete">删除</string>
+    <string name="menu_item_star">标星</string>
+    <string name="menu_item_search">搜索</string>
+    <string name="menu_item_settings">设置</string>
+
+    <string name="menu_dark_theme_light">浅色模式</string>
+    <string name="menu_dark_theme_dark">深色模式</string>
+    <string name="menu_dark_theme_battery_saver">由电池保护模式设定</string>
+    <string name="menu_dark_theme_system_default">系统默认</string>
+
+    <!--BottomNavigationDrawer-->
+    <string name="navigation_inbox">收件箱</string>
+    <string name="navigation_starred">星标</string>
+    <string name="navigation_sent">已发送</string>
+    <string name="navigation_trash">垃圾箱</string>
+    <string name="navigation_spam">垃圾邮件</string>
+    <string name="navigation_drafts">草稿</string>
+
+    <!--HomeFragment-->
+    <string name="email_sender_profile_content_desc">发件人头像</string>
+    <string name="navigate_back_icon_content_desc">返回上一级</string>
+
+    <!--EmailFragment-->
+    <string name="email_recipient_to">收件人：%1$s</string>
+    <string name="email_card_transition_name">邮件卡片_%1$s</string>
+    <string name="email_card_detail_transition_name">邮件详情卡片</string>
+
+    <!--ComposeFragment-->
+    <string name="compose_close_content_desc">关闭邮件编辑</string>
+    <string name="compose_send_content_desc">发送邮件</string>
+    <string name="compose_add_recipient_icon_content_desc">添加收件人</string>
+    <string name="compose_subject_hint">主题</string>
+    <string name="compose_body_hint">新消息...</string>
+    <string name="compose_recipient_group_content_desc">收件人群组</string>
+
+    <!--SearchFragment-->
+    <string name="search_suggestion_hint">搜索邮件</string>
+    <string name="search_suggestion_title_yesterday">昨天</string>
+    <string name="search_suggestion_title_this_week">本周</string>
+
+</resources>
